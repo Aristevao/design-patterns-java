@@ -6,9 +6,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch MainCalculator",
+            "request": "launch",
+            "mainClass": "strategy.MainCalculator",
+            "projectName": "designpatterns_baf745bd"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainShipping",
+            "request": "launch",
+            "mainClass": "strategy.MainShipping",
+            "projectName": "designpatterns_baf745bd"
+        },
+        {
+            "type": "java",
+            "name": "Launch Calculator",
+            "request": "launch",
+            "mainClass": "strategy.Calculator",
+            "projectName": "designpatterns_baf745bd"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
-            "mainClass": "${file}"
+            "mainClass": "{file}"
         },
         {
             "type": "java",
