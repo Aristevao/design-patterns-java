@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch ButtonExample",
+            "request": "launch",
+            "mainClass": "creational.factory.examples.button.ButtonExample",
+            "projectName": "designpatterns_baf745bd"
+        },
+        {
+            "type": "java",
             "name": "Launch MainCalculator",
             "request": "launch",
             "mainClass": "strategy.MainCalculator",
