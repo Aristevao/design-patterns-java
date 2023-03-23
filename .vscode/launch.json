@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "TransportMain",
+            "request": "launch",
+            "mainClass": "behavioral.strategy.TransportMain",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
             "name": "MainShipping",
             "request": "launch",
             "mainClass": "behavioral.strategy.MainShipping",
