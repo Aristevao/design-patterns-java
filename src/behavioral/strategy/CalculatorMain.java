@@ -1,6 +1,6 @@
 package behavioral.strategy;
 
-class MainCalculator {
+class CalculatorMain {
 
     public static void main(String[] args) {
         Context context = new Context(new ConcreteStrategyAdd()); // "Add" example by constructor.

@@ -6,7 +6,7 @@ import behavioral.strategy.shipping.JadLog;
 import behavioral.strategy.shipping.MercadoEnvio;
 import behavioral.strategy.shipping.TNT;
 
-public class MainShipping {
+public class ShippingMain {
     public static void main(String[] args) {
         // ---- Client ----
         // The client code picks a concrete strategy and passes it to
