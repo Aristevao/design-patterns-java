@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainShipping",
+            "request": "launch",
+            "mainClass": "behavioral.strategy.MainShipping",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainCalculator",
+            "request": "launch",
+            "mainClass": "behavioral.strategy.MainCalculator",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainShipping",
+            "request": "launch",
+            "mainClass": "strategy.MainShipping",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainCalculator",
+            "request": "launch",
+            "mainClass": "strategy.MainCalculator",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
             "name": "Launch ButtonExample",
             "request": "launch",
             "mainClass": "creational.factory.examples.button.ButtonExample",

@@ -1,4 +1,4 @@
-package strategy;
+package behavioral.strategy;
 
 class MainCalculator {
 
