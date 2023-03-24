@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CheesecakeMain",
+            "request": "launch",
+            "mainClass": "creational.factory.cheesecake.CheesecakeMain",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
             "name": "TransportMain",
             "request": "launch",
             "mainClass": "behavioral.strategy.TransportMain",
