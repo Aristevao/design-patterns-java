@@ -1,4 +1,4 @@
-package creational.factory.examples.button;
+package creational.factory.button;
 
 class ButtonExample {
     public static void main(String[] args) {
