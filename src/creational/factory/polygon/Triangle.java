@@ -1,9 +1,9 @@
-package creational.factory.examples.polygon;
+package creational.factory.polygon;
 
 public class Triangle implements Polygon {
 
     @Override
     public String getDescription() {
-        return Triangle.class.getName();
+        return Triangle.class.getSimpleName();
     }
 }

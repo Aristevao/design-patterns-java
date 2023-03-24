@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ButtonExample",
+            "request": "launch",
+            "mainClass": "creational.factory.button.ButtonExample",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "CheesecakeMain",
+            "request": "launch",
+            "mainClass": "creational.factory.cheesecake.CheesecakeMain",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "TransportMain",
+            "request": "launch",
+            "mainClass": "behavioral.strategy.TransportMain",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainShipping",
+            "request": "launch",
+            "mainClass": "behavioral.strategy.MainShipping",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainCalculator",
+            "request": "launch",
+            "mainClass": "behavioral.strategy.MainCalculator",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainShipping",
+            "request": "launch",
+            "mainClass": "strategy.MainShipping",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
+            "name": "MainCalculator",
+            "request": "launch",
+            "mainClass": "strategy.MainCalculator",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
             "name": "Launch ButtonExample",
             "request": "launch",
             "mainClass": "creational.factory.examples.button.ButtonExample",

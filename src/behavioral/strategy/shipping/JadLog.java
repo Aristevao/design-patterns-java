@@ -1,4 +1,4 @@
-package strategy.shipping;
+package behavioral.strategy.shipping;
 
 public class JadLog {
     

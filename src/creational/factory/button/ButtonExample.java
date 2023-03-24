@@ -1,4 +1,4 @@
-package creational.factory.examples.button;
+package creational.factory.button;
 
 class ButtonExample {
     public static void main(String[] args) {
@@ -24,9 +24,9 @@ class Initialize {
         ConfigFile config = new ConfigFile();
 
         try {
-            if (config.OS() == "Windows")
+            if (config.getOS() == "Windows")
                 dialog = new WindowsDialog();
-            else if (config.OS() == "Web")
+            else if (config.getOS() == "Web")
                 dialog = new WebDialog();
         } catch (Exception e) {
             e.printStackTrace();
@@ -63,7 +63,7 @@ class ConfigFile {
 
     private final String OS = "Windows";
 
-    public String OS() {
+    public String getOS() {
         return this.OS;
     }
 }

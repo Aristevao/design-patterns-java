@@ -1,12 +1,12 @@
-package strategy;
+package behavioral.strategy;
 
-import strategy.shipping.Correios;
-import strategy.shipping.DHL;
-import strategy.shipping.JadLog;
-import strategy.shipping.MercadoEnvio;
-import strategy.shipping.TNT;
+import behavioral.strategy.shipping.Correios;
+import behavioral.strategy.shipping.DHL;
+import behavioral.strategy.shipping.JadLog;
+import behavioral.strategy.shipping.MercadoEnvio;
+import behavioral.strategy.shipping.TNT;
 
-public class MainShipping {
+public class ShippingMain {
     public static void main(String[] args) {
         // ---- Client ----
         // The client code picks a concrete strategy and passes it to

@@ -1,9 +1,9 @@
-package creational.factory.examples.polygon;
+package creational.factory.polygon;
 
 public class Pentagon implements Polygon {
 
     @Override
     public String getDescription() {
-        return Pentagon.class.getName();
+        return Pentagon.class.getSimpleName();
     }
 }

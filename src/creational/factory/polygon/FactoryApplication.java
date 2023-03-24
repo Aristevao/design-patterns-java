@@ -1,4 +1,4 @@
-package creational.factory.examples.polygon;
+package creational.factory.polygon;
 
 public class FactoryApplication {
     public static void main(String[] args) {
