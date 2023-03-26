@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ObserverPatternExample",
+            "request": "launch",
+            "mainClass": "behavioral.observer.ObserverPatternExample",
+            "projectName": "design-patterns-java_88a219ab"
+        },
+        {
+            "type": "java",
             "name": "ButtonExample",
             "request": "launch",
             "mainClass": "creational.factory.button.ButtonExample",
